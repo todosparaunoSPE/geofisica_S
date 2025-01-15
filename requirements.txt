@@ -3,6 +3,6 @@ numpy
 matplotlib
 pandas
 obspy
-scipy=1.13.1
+scipy==1.13.1
 plotly
 scikit-learn
