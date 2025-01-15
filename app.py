@@ -13,7 +13,10 @@ from obspy.io.segy.segy import _read_segy
 from obspy.signal.filter import bandpass
 from scipy.signal import coherence, welch
 from scipy.fft import fft, fftfreq
-from scipy.signal import cwt, morlet
+#from scipy.signal import cwt, morlet
+from scipy.signal.wavelets import cwt, morlet
+
+
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import plotly.express as px
